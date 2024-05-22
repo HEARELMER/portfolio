@@ -1,0 +1,21 @@
+.btn-toggle-theme{
+    @apply flex items-center;
+}
+
+li{
+    @apply  font-semibold cursor-pointer  ease-in-out;
+    &:hover{
+        @apply text-sky-500 fill-sky-500;
+    }
+}
+.menu{
+    display: none;
+}
+@media (max-width: 768px) {
+    li{
+        display: none;
+    }
+    .menu{
+        @apply block;
+    }
+}
