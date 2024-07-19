@@ -17,9 +17,12 @@ breakpoints='{"300": {"slidesPerView": 1, "spaceBetween": 10},
     "1800": {"slidesPerView": 5,  "spaceBetween": 30}}'
 >
 
-    @for (item of data; track $index) {
-        <app-card [data]="data"/>  
-    }
+@for (item of data; track $index) {
+<swiper-slide>
+       <app-card  [data]="item"/>  
+    </swiper-slide>
+}
+
 </swiper-container>
 
 </main>

@@ -43,7 +43,7 @@ h2{
 }
 
 .redes{
-    @apply flex justify-start items-center gap-4 mt-4;
+    @apply flex lg:w-auto w-full lg:justify-start items-center gap-4 mt-4 flex-wrap;
     button{
         @apply rounded-lg  border-blue-600 py-1 px-8 border-2 cursor-pointer;
         &:hover{

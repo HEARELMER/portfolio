@@ -19,13 +19,21 @@ export class SliderComponent {
         "image": "/assets/chat.png",
         "technologies": [
             {
-                "name": "Icon",
-                "image": "/path/to/icon1.png"
+                "name": "",
+                "image": "/assets/angular.svg"
+            },
+            {
+                "name": "PHP",
+                "image": "/assets/php.svg"
             },
             {
                 "name": "Firebase",
-                "image": "/path/to/icon2.png"
-            }
+                "image": "/assets/fire.svg"
+            },
+            {
+                "name": "",
+                "image": "/assets/mysql.svg"
+            },
         ],
         "demo_link": "#"
     },
@@ -35,13 +43,17 @@ export class SliderComponent {
         "image": "data:image/png;base6AABJRU5ErkJggg==",
         "technologies": [
             {
-                "name": "Icon",
-                "image": "/path/to/icon1.png"
+                "name": "Python",
+                "image": "/assets/py.svg"
             },
             {
-                "name": "Firebase",
-                "image": "/path/to/icon2.png"
-            }
+                "name": "",
+                "image": "/assets/angular.svg"
+            },
+            {
+                "name": "",
+                "image": "/assets/mysql.svg"
+            },
         ],
         "demo_link": "#"
     },
@@ -51,16 +63,16 @@ export class SliderComponent {
         "image": "data:image/jpeg;base64,/9j/4AqIBVFRRBSiiiD//Z",
         "technologies": [
             {
-                "name": "Icon",
-                "image": "/path/to/icon1.png"
+                "name": "",
+                "image": "/assets/mysql.svg"
             },
             {
-                "name": "Firebase",
-                "image": "/path/to/icon2.png"
+                "name": "",
+                "image": "/assets/angular.svg"
             },
             {
                 "name": "PHP",
-                "image": "/path/to/icon3.png"
+                "image": "/assets/php.svg"
             }
         ],
         "demo_link": "#"
@@ -71,13 +83,17 @@ export class SliderComponent {
         "image": "/assets/luxury.png",
         "technologies": [
             {
-                "name": "Icon",
-                "image": "/path/to/icon1.png"
+                "name": "",
+                "image": "/assets/angular.svg"
             },
             {
                 "name": "Firebase",
-                "image": "/path/to/icon2.png"
-            }
+                "image": "/assets/fire.svg"
+            },
+            {
+                "name": "Tailwind CSS",
+                "image": "/assets/tailwind.svg"
+            },
         ],
         "demo_link": "#"
     }

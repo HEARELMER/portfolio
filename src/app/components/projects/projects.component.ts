@@ -1,6 +1,6 @@
 import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SliderComponent } from '../templts/slider/slider.component';
+import { SliderComponent } from '../../shared/components/templates/slider/slider.component';
 
 @Component({
   selector: 'app-projects',
